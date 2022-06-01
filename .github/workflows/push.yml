@@ -3,7 +3,7 @@ name: deploy
 jobs:
   deploy:
     name: implementar en clúster
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: construir y empujar a docker
